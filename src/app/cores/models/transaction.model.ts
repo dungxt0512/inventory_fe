@@ -1,4 +1,4 @@
-export interface Transaction {
+export interface InventoryTransaction {
   id: number;
   transactionId: string;
   transactionType: 'IN' | 'OUT';
